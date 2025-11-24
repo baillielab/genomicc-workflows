@@ -20,7 +20,7 @@ jobs:
       packages: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Set Swap Space
         uses: pierotofy/set-swap-space@master
         with:
@@ -71,7 +71,7 @@ jobs:
           - docker
           - singularity
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Set Swap Space
         uses: pierotofy/set-swap-space@master
         with:
@@ -107,7 +107,7 @@ jobs:
       actions: write
       contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Set Swap Space
         uses: pierotofy/set-swap-space@master
         with:
@@ -137,7 +137,7 @@ jobs:
       contents: write
       statuses: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: julia-actions/setup-julia@v2
         with:
           version: 1.11
