@@ -30,6 +30,9 @@ params.IQR_FACTOR = 10
 params.FILTER_HIGH_LOADINGS_VARIANTS = false
 params.ANCESTRY_THRESHOLD = 0.5
 params.ANCESTRY_PROGRAM = "scope"
+params.ANCESTRY_ML_MODEL = "xgboost"
+params.ANCESTRY_ML_NPCS = 20
+params.ANCESTRY_ML_NFOLDS = 10
 params.RELATEDNESS_DEGREE = 3
 
 // Imputation

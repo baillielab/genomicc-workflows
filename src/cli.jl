@@ -593,7 +593,10 @@ function julia_main()::Cint
             cmd_settings["pedigree-file"];
             output=cmd_settings["output"],
             threshold=cmd_settings["threshold"],
-            mode=cmd_settings["program"]
+            mode=cmd_settings["program"],
+            nfolds=cmd_settings["nfolds"],
+            npcs=cmd_settings["npcs"],
+            model=cmd_settings["model"]
         )
     elseif cmd == "mock"
         mock_data(

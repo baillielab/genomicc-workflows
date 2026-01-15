@@ -23,7 +23,7 @@ process EstimateAncestry {
             --threshold=${params.ANCESTRY_THRESHOLD} \
             --program=${params.ANCESTRY_PROGRAM} \
             --model=${params.ANCESTRY_ML_MODEL} \
-            --ncps=${params.ANCESTRY_ML_NPCS} \
+            --npcs=${params.ANCESTRY_ML_NPCS} \
             --nfolds=${params.ANCESTRY_ML_NFOLDS}
         """
 }
