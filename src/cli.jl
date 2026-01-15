@@ -370,6 +370,21 @@ function cli_settings()
             arg_type = String
             help = "Ancestry estimation program (scope or admixture)."
             default = "scope"
+
+        "--model"
+            arg_type = String
+            help = "ML model to be used (xgboost or logistic) if program is ml."
+            default = "xgboost"
+        
+        "--nfolds"
+            arg_type = Int
+            help = "Number of validation folds if program is ml."
+            default = 10
+
+        "--npcs"
+            arg_type = Int
+            help = "Number of pcs to be used if program is ml."
+            default = 20
     end
 
     @add_arg_table! s["plot-pca"] begin
