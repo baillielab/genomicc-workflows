@@ -21,6 +21,9 @@ process EstimateAncestry {
             ${pedigree} \
             --output=${output} \
             --threshold=${params.ANCESTRY_THRESHOLD} \
-            --program=${params.ANCESTRY_PROGRAM}
+            --program=${params.ANCESTRY_PROGRAM} \
+            --model=${params.ANCESTRY_ML_MODEL} \
+            --npcs=${params.ANCESTRY_ML_NPCS} \
+            --nfolds=${params.ANCESTRY_ML_NFOLDS}
         """
 }
