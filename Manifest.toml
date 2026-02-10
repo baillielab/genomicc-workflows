@@ -800,8 +800,8 @@ version = "0.2.0"
 [[deps.GenomiccUtils]]
 deps = ["CSV", "DataFrames", "DelimitedFiles", "MLJBase", "MLJLinearModels", "MLJTransforms", "MLJTuning", "MLJXGBoostInterface", "StatisticalMeasures"]
 git-tree-sha1 = "2fd9fddd0c9e3a77ad748eb7a446ef4f403390ea"
-repo-rev = "main"
-repo-url = "https://github.com/baillielab/GenomiccUtils.jl"
+repo-rev = "v0.1.0"
+repo-url = "https://github.com/baillielab/GenomiccUtils.jl.git"
 uuid = "45214ce5-ea42-4256-97be-5000532e2146"
 version = "1.0.0-DEV"
 
